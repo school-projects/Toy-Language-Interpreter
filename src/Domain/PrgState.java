@@ -14,6 +14,36 @@ public class PrgState {
     IMyList<Integer> out;
     IMyHeap heap;
 
+
+
+    private IMyLatchTable latchTable;
+
+    public PrgState(IStmt oProg) {
+        this.exeStack = new MyStack<>();
+        this.sTable = new MyDict<>();
+        this.fileTable = new MyFileTable();
+        this.out = new MyList<>();
+        this.heap = new MyHeap();
+        this.id = 1;
+        this.originalProg = oProg;
+        this.latchTable = new MyLatchTable();
+
+        exeStack.push(oProg);
+    }
+
+    public PrgState(IMyStack<IStmt> exeStack, IMyDict<String, Integer> sTable, IMyFileTable fileTable, IMyList<Integer> out, IMyHeap heap, IMyLatchTable latchTable, Integer id, IStmt originalProg) {
+        this.exeStack = exeStack;
+        this.sTable = sTable;
+        this.fileTable = fileTable;
+        this.out = out;
+        this.heap = heap;
+        this.latchTable = latchTable;
+        this.id = id;
+        this.originalProg = originalProg;
+
+        exeStack.push(originalProg);
+    }
+
     public Integer getID() {
         return id;
     }
@@ -47,28 +77,8 @@ public class PrgState {
         return fileTable;
     }
 
-    public PrgState(IMyStack<IStmt> exeStack, IMyDict<String, Integer> sTable, IMyList<Integer> out, IMyFileTable myFileTable, IMyHeap heap, IStmt originalProg) {
-        this.exeStack = exeStack;
-        this.sTable = sTable;
-        this.out = out;
-        this.originalProg = originalProg;
-        this.fileTable = myFileTable;
-        this.heap = heap;
-        this.id = 1;
-
-        exeStack.push(originalProg);
-    }
-
-    public PrgState(IMyStack<IStmt> exeStack, IMyDict<String, Integer> sTable, IMyList<Integer> out, IMyFileTable myFileTable, IMyHeap heap, IStmt originalProg, Integer id) {
-        this.exeStack = exeStack;
-        this.sTable = sTable;
-        this.out = out;
-        this.originalProg = originalProg;
-        this.fileTable = myFileTable;
-        this.heap = heap;
-        this.id = id;
-
-        exeStack.push(originalProg);
+    public IMyLatchTable getLatchTable() {
+        return latchTable;
     }
 
     public Boolean isNotCompleted(){

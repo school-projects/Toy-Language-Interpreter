@@ -23,11 +23,11 @@ public class Controller {
 
     public Controller() {
         this.repo = new Repo();
-        executor = Executors.newFixedThreadPool(2);}
+        executor = Executors.newFixedThreadPool(4);}
 
     public Controller(IRepo repo) {
         this.repo = repo;
-        executor = Executors.newFixedThreadPool(2);
+        executor = Executors.newFixedThreadPool(4);
     }
 
     public void addPrgState(PrgState state)

@@ -2,11 +2,11 @@ package Domain.ADT;
 
 import Domain.Exception.ADT.ADTExc;
 
-
 import java.util.ArrayList;
 import java.util.Map;
 
-public interface IMyHeap {
+public interface IMyLatchTable {
+
     Integer add(Integer val);
     void update(Integer k, Integer v);
     Integer lookup(Integer id) throws ADTExc;

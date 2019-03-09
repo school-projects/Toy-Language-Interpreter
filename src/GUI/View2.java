@@ -2,6 +2,7 @@ package GUI;
 
 import Controller.Controller;
 import Domain.ADT.MyPair;
+import Domain.Exception.MyExc;
 import Domain.Exception.Statements.StmtExc;
 import Domain.PrgState;
 import javafx.beans.Observable;
@@ -20,7 +21,6 @@ import java.io.BufferedReader;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ExecutionException;
 
 public class View2 {
 
@@ -69,6 +69,15 @@ public class View2 {
     private TableColumn<MyPair<String,Integer>, Integer> sValue;
 
     @FXML
+    private TableView<MyPair<Integer,Integer>> latchTableView;
+
+    @FXML
+    private TableColumn<MyPair<Integer,Integer>,Integer> lID;
+
+    @FXML
+    private TableColumn<MyPair<Integer,Integer>,Integer> lVal;
+
+    @FXML
     private ListView outView;
 
     @FXML
@@ -81,6 +90,9 @@ public class View2 {
 
         hAddress.setCellValueFactory(new PropertyValueFactory<MyPair<Integer,Integer>, Integer>("first"));
         hValue.setCellValueFactory(new PropertyValueFactory<MyPair<Integer,Integer>,Integer>("second"));
+
+        lID.setCellValueFactory(new PropertyValueFactory<MyPair<Integer,Integer>, Integer>("first"));
+        lVal.setCellValueFactory(new PropertyValueFactory<MyPair<Integer,Integer>,Integer>("second"));
 
 
         sName.setCellValueFactory(new PropertyValueFactory<MyPair<String,Integer>, String>("first"));
@@ -105,12 +117,16 @@ public class View2 {
                 sTableView.getItems().clear();
                 fileTableView.getItems().clear();
                 exeStackView.getItems().clear();
+                latchTableView.getItems().clear();
             }
             return;
         }
 
         heapView.getItems().clear();
         heapView.getItems().setAll(ctrl.getById(currentState).getHeap().getEntrySet());
+
+        latchTableView.getItems().clear();
+        latchTableView.getItems().setAll(ctrl.getById(currentState).getLatchTable().getEntrySet());
 
         sTableView.getItems().clear();
         sTableView.getItems().setAll(ctrl.getById(currentState).getsTable().getEntrySet());
@@ -135,13 +151,13 @@ public class View2 {
         try {
             ctrl.oneStepForAll();
             refresh();
-        } catch (Exception ex) {
-           ex.printStackTrace();
+        }
+        catch (Exception ex) {
+            ex.printStackTrace();
         }
 
 
     }
-
 
 
     @FXML

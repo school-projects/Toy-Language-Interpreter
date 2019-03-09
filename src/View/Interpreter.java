@@ -15,7 +15,7 @@ import java.io.BufferedReader;
 
 class Interpreter {
         public static void main(String[] args) {
-
+/*
                 IStmt ex5 = new CompStmt(
                         new CompStmt(new OpenRFStmt("fname","test.in"),
                                 new ReadFileStmt(new VarExp("fname"),"val")),
@@ -82,6 +82,8 @@ class Interpreter {
                 menu.addCommand(new RunCommand("3", "A4", ctr3));
                 menu.addCommand(new RunCommand("4", "A5", ctr4));
                 menu.show();
+        */
         }
+
 
 }

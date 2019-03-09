@@ -66,29 +66,58 @@ public class ViewCtrl {
 
         prgs.add(
                 new CompStmt(
-                        new AssignStmt("v", new ConstExp(0)),
-                        new CompStmt(
-                            new CompStmt(
-                                new CompStmt(
-                                    new CompStmt(
-                                            new CompStmt(
-                                                    new RepeatStmt(new CompExp("==", new VarExp("v"), new ConstExp(3))
-                                                            ,new CompStmt(
-                                                                    new ForkStmt(new CompStmt(
-                                                                            new PrintStmt(new VarExp("v")),
-                                                                            new AssignStmt("v", new ArithExp('-', new VarExp("v"),new ConstExp(1)))))
-                                                            ,new AssignStmt("v", new ArithExp('+', new VarExp("v"), new ConstExp(1))))
-
-                                                    ),
-                                                    new AssignStmt("x", new ConstExp(1))
-                                            ),
-                                            new AssignStmt("y",new ConstExp(2))
-                                    )
-                                , new AssignStmt("z",new ConstExp(3)))
-                            ,new AssignStmt("w", new ConstExp(4))), new PrintStmt(new ArithExp('*',new VarExp("v"), new ConstExp(10)))
-                    )
-            )
-                );
+                 new CompStmt(
+                         new CompStmt(
+                                 new CompStmt(
+                                         new CompStmt(
+                                                 new CompStmt(
+                                                         new CompStmt(
+                                                                 new CompStmt(
+                                                                         new NewStmt("v1", new ConstExp(2))
+                                                                         ,new NewStmt("v2", new ConstExp(3))
+                                                                 ),
+                                                                 new NewStmt("v3", new ConstExp(4))
+                                                         )
+                                                         ,new NewLatchStmt("cnt", new HeapReadExp("v2"))
+                                                 ),
+                                                 new ForkStmt(
+                                                         new CompStmt(
+                                                                 new CompStmt(
+                                                                         new CompStmt(
+                                                                                 new HeapWriteStmt(new VarExp("v1"), new ArithExp('*',new HeapReadExp("v1"),new ConstExp(10)))
+                                                                                 ,new PrintStmt(new HeapReadExp("v1"))
+                                                                         )
+                                                                         ,new CountDownStmt("cnt")
+                                                                 )
+                                                                 ,new ForkStmt(
+                                                                 new CompStmt(
+                                                                         new CompStmt(
+                                                                                 new CompStmt(
+                                                                                         new HeapWriteStmt(new VarExp("v2"), new ArithExp('*',new HeapReadExp("v2"),new ConstExp(10)))
+                                                                                         ,new PrintStmt(new HeapReadExp("v2"))
+                                                                                 )
+                                                                                 ,new CountDownStmt("cnt")
+                                                                         )
+                                                                         ,new ForkStmt(
+                                                                                 new CompStmt(
+                                                                                         new CompStmt(
+                                                                                                 new HeapWriteStmt(new VarExp("v3"), new ArithExp('*',new HeapReadExp("v3"),new ConstExp(10)))
+                                                                                                 ,new PrintStmt(new HeapReadExp("v3"))
+                                                                                         )
+                                                                                         ,new CountDownStmt("cnt")
+                                                                                 )
+                                                                         )
+                                                                 ))
+                                                 ))
+                                         ),
+                                         new AwaitStmt("cnt")
+                                 ),
+                                 new PrintStmt(new ConstExp(100))
+                         ),
+                         new CountDownStmt("cnt")
+                 )
+                ,new PrintStmt(new ConstExp(100)))
+        );
 
         prgList.setItems(prgs);
     }
@@ -102,7 +131,7 @@ public class ViewCtrl {
     {
 
         IStmt ex = (IStmt) prgList.getSelectionModel().getSelectedItem();
-        PrgState prg = new PrgState(new MyStack<IStmt>(), new MyDict<String, Integer>(), new MyList<Integer>(), new MyFileTable(), new MyHeap(), ex);
+        PrgState prg = new PrgState(ex);
         Repo repo = new Repo();
         repo.addPrg(prg);
         Controller ctr = new Controller(repo);
