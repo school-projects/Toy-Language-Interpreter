@@ -1,0 +1,7908 @@
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v=3
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v=3
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+x-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+x-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+x-->1
+y-->2
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+x-->1
+y-->2
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+x-->1
+y-->2
+z-->3
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+x-->1
+y-->2
+z-->3
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+
+sTable:
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+v = 0; Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v=3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v=3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->1
+x-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->-1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->1
+x-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->1
+x-->1
+y-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->1
+x-->1
+y-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->1
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->1
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->1
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->1
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+
+sTable:
+v-->1
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+10
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+v = 0; Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v=3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v=3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v=3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v=3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->1
+x-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->-1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->1
+x-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->1
+x-->1
+y-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->1
+x-->1
+y-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->1
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->1
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->1
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->1
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+
+sTable:
+v-->1
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+10
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+v = 0; Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v==3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v==3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->-1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->0
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->3
+x-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->3
+x-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->3
+x-->1
+y-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->3
+x-->1
+y-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->3
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->3
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+30
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+v = 0; Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v==3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v==3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->-1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->0
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->3
+x-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->3
+x-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->3
+x-->1
+y-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->3
+x-->1
+y-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->3
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->3
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+30
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+v = 0; Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v==3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v==3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->-1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->0
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->3
+x-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->3
+x-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->3
+x-->1
+y-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->3
+x-->1
+y-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->3
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->3
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+30
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+v = 0; Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+v = 0
+
+sTable:
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4; Print v*10
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3; w = 4
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2; z = 3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1; y = 2
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+Repeat Fork Print v; v = v-1; v = v+1 until v==3; x = 1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v==3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Repeat Fork Print v; v = v-1; v = v+1 until v==3
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+Fork Print v; v = v-1; v = v+1; while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->0
+
+Out:
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->0
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->-1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->1
+
+Out:
+0
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->1
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->0
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+Fork Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+v = v+1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+Print v; v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+while Not(v==3): Fork Print v; v = v-1; v = v+1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+Print v
+
+sTable:
+v-->2
+
+Out:
+0
+1
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+x = 1
+
+sTable:
+v-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+v = v-1
+
+sTable:
+v-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->3
+x-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 10 
+ExeStack:
+
+sTable:
+v-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+y = 2
+
+sTable:
+v-->3
+x-->1
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->3
+x-->1
+y-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+z = 3
+
+sTable:
+v-->3
+x-->1
+y-->2
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->3
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+w = 4
+
+sTable:
+v-->3
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+Print v*10
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+
+FileTable:
+
+Heap:
+
+--------------------
+PrgState:
+ ID: 1 
+ExeStack:
+
+sTable:
+v-->3
+w-->4
+x-->1
+y-->2
+z-->3
+
+Out:
+0
+1
+2
+30
+
+FileTable:
+
+Heap:
