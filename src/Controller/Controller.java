@@ -51,7 +51,7 @@ public class Controller {
         List<PrgState> prgList = removeCompletedPrg(repo.getPrgLst().getContent());
         if(prgList.size() > 0) {
 
-            //Garbage Collector
+            //Garbage CollectorR
             repo.getPrgLst().get(0).getHeap().setContent(conservativeGarbageCollector(
                     repo.getPrgLst().get(0).getsTable().getContent().values(),
                     repo.getPrgLst().get(0).getHeap().getContent()));
